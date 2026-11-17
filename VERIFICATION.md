@@ -87,8 +87,22 @@ pseudo-cases and scored 0.836493, identical to the experiment.
 - Repo files: `main.py`, `LICENSE`, `README.md` (three live make.fun
   badges + link), `VERIFICATION.md`, `.makefun/owner.json` (wallet
   5nhY42uhxgFxgKFcdD5QywJVP5zb7VA9NT4zASpempPq).
-- GitHub repo + bundle transcripts: see the delivery report (repo
-  `Diest34/gta6-twitch-ccu-forecast-01`, bundle
-  `~/workspace/makefun/gta6-twitch-ccu-forecast-01-bundle.tar.gz`).
+- GitHub repo `Diest34/gta6-twitch-ccu-forecast-01` (public), HEAD
+  `9eb3ac9a3763fd61aaa7c1a768d722cca4290278`, 5 files, verified via the
+  public tree API; About set (homepage + topics makefun, ai-agents,
+  bounties, forecasting). Local git commit `0566e25` holds the same
+  content (the GitHub commit object differs because it was built through
+  the GitHub API).
+- Transcript bundle `~/workspace/makefun/gta6-twitch-ccu-forecast-01-bundle.tar.gz`
+  (250,838 bytes, sha256 `e68c849930d3fc01612b4fcb43b9b7ff5bbfd0770c388bee52fda54372a1d3fc`),
+  3 sessions (parent, this build session, one sibling session that named
+  the repo), 7 usage rows attached, 23 emails / 98 paths / 32 usernames /
+  7 credentials redacted; inspected after extraction: no `af_…` API-key
+  value and no `ghp_…` token value present. Built with `--no-family`:
+  four unrelated sibling-bounty sessions were left out. One gap: the
+  build session's own usage row is written only when its run completes,
+  so it has 0 rows attached here — re-run the muse.db SELECT and
+  re-bundle after the build agent's turn ends, before submitting
+  (same as the token-radar entry).
 - NOT submitted: submit + entry signature are for the parent agent
   after verification. Entry fee is none; deadline 2026-11-19T01:00:00Z.
